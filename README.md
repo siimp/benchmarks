@@ -26,9 +26,9 @@ Simple web frameworks benchmarks
 
 ## Simple GET request results
 
-| Framework                         | Throughput | Memory usage | Comments    |
-| --------------------------------- | ---------- | ------------ | ----------- |
-| spring-boot (JVM, netty, webflux) | Title      | Test         | not working |
+| Framework                         | Throughput | Memory usage | Comments     |
+| --------------------------------- | ---------- | ------------ | ------------ |
+| spring-boot (JVM, netty, webflux) | Title      | Test         | comment here |
 
 ## Notes
 Compile and runtime information is under each projects readme.
