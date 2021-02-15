@@ -26,9 +26,19 @@ Simple web frameworks benchmarks
 
 ## Simple GET request results
 
-| Framework                         | Throughput | Memory usage | Comments     |
-| --------------------------------- | ---------- | ------------ | ------------ |
-| spring-boot (JVM, netty, webflux) | Title      | Test         | comment here |
+| Framework                         | Throughput (req/s) | Memory usage | Comments                 |
+| --------------------------------- | ------------------ | ------------ | ------------------------ |
+| flask-simple                      |                    |              |                          |
+| gin-simple                        |                    |              |                          |
+| micronaut-simple                  |                    |              |                          |
+| micronaut-simple                  |                    |              | GraalVM                  |
+| quarkus-simple                    |                    |              |                          |
+| quarkus-simple                    |                    |              | GraalVM                  |
+| quarkus-simple-reactive           |                    |              | reactive-routes          |
+| quarkus-simple-reactive           |                    |              | reactive-routes, GraalVM |
+| rocket-simple                     |                    |              |                          |
+| spring-boot-simple                |                    |              |                          |
+| spring-boot-simple-reactive       |                    |              | webflux                  |
 
 ## Notes
-Compile and runtime information is under each projects readme.
+Build and run information is under README.md for each project.
