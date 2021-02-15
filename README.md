@@ -1,3 +1,5 @@
+> These comparisons are meant to be out of the box comparisons. This must be kept in mind when reviewing the results. I know that some comparisons are unfair, meaning that some frameworks do not run in most optimized way and in recommended production environment.
+
 # Benchmarks
 Simple web frameworks benchmarks
 
