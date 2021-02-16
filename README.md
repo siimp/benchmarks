@@ -34,11 +34,11 @@ Simple web frameworks benchmarks
 | flask-simple                      | 1506.21            | 28MB         | (Keep-Alive requests:    0)         |
 | gin-simple                        | 78766.02           | 16MB         |                                     |
 | micronaut-simple                  | 38836.84           | 422MB        |                                     |
-| micronaut-simple                  |                    |              | GraalVM                             |
+| micronaut-simple                  | 24410.14           | 471MB        | GraalVM                             |
 | quarkus-simple                    | 29045.51           | 287MB        |                                     |
-| quarkus-simple                    |                    |              | GraalVM                             |
+| quarkus-simple                    | 23269.73           | 321MB        | GraalVM                             |
 | quarkus-simple-reactive           | 66303.85           | 287MB        | reactive-routes                     |
-| quarkus-simple-reactive           |                    |              | reactive-routes, GraalVM            |
+| quarkus-simple-reactive           | 41308.04           | 309MB        | reactive-routes, GraalVM            |
 | rocket-simple                     | 7642.85            | 6MB          |(Keep-Alive requests:    0)          |
 | actix-simple                      | 68845.68           | 7MB          |                                     |
 | spring-boot-simple                | 30511.69           | 342MB        |                                     |
