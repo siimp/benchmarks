@@ -9,5 +9,5 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 		c.Data(200, "text/plain; charset=utf-8", []byte("hello world"))
 	})
-	r.Run()
+	r.Run(":8080")
 }

@@ -5,5 +5,6 @@ go build
 
 run  
 ```
-simple-gin.exe
+SET GIN_MODE=release
+gin-simple.exe
 ```

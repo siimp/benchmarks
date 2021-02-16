@@ -20,6 +20,7 @@ Simple web frameworks benchmarks
 - quarkus 1.11.3.Final (JVM, GraalVM native-image)
 - gin v1.6.3 (Go)
 - rocket 0.4.7 (Rust)
+- actix-web 3 (Rust)
 - flask 1.1.2 (Python)
 
 ## Measurements
@@ -28,19 +29,20 @@ Simple web frameworks benchmarks
 
 ## Simple GET request results
 
-| Framework                         | Throughput (req/s) | Memory usage | Comments                 |
-| --------------------------------- | ------------------ | ------------ | ------------------------ |
-| flask-simple                      |                    |              |                          |
-| gin-simple                        |                    |              |                          |
-| micronaut-simple                  |                    |              |                          |
-| micronaut-simple                  |                    |              | GraalVM                  |
-| quarkus-simple                    |                    |              |                          |
-| quarkus-simple                    |                    |              | GraalVM                  |
-| quarkus-simple-reactive           |                    |              | reactive-routes          |
-| quarkus-simple-reactive           |                    |              | reactive-routes, GraalVM |
-| rocket-simple                     |                    |              |                          |
-| spring-boot-simple                |                    |              |                          |
-| spring-boot-simple-reactive       |                    |              | webflux                  |
+| Application                       | Throughput (req/s) | Memory usage | Comments                            |
+| --------------------------------- | ------------------ | ------------ | ----------------------------------- |
+| flask-simple                      | 1506.21            | 28MB         | (Keep-Alive requests:    0)         |
+| gin-simple                        | 78766.02           | 16MB         |                                     |
+| micronaut-simple                  | 38836.84           | 422MB        |                                     |
+| micronaut-simple                  |                    |              | GraalVM                             |
+| quarkus-simple                    | 29045.51           | 287MB        |                                     |
+| quarkus-simple                    |                    |              | GraalVM                             |
+| quarkus-simple-reactive           | 66303.85           | 287MB        | reactive-routes                     |
+| quarkus-simple-reactive           |                    |              | reactive-routes, GraalVM            |
+| rocket-simple                     | 7642.85            | 6MB          |(Keep-Alive requests:    0)          |
+| actix-simple                      | 68845.68           | 7MB          |                                     |
+| spring-boot-simple                | 30511.69           | 342MB        |                                     |
+| spring-boot-simple-reactive       | 7633.54            | 397MB        | webflux (Keep-Alive requests:    0) |
 
 ## Notes
 Build and run information is under README.md for each project.
