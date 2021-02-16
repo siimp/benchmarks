@@ -22,6 +22,7 @@ Simple web frameworks benchmarks
 - rocket 0.4.7 (Rust)
 - actix-web 3 (Rust)
 - flask 1.1.2 (Python)
+- fastapi 0.63.0 (Python)
 
 ## Measurements
 - Throughput test was run 5 times ```ab -k -c 20 -n 100000 http://localhost:8080/```
@@ -32,6 +33,7 @@ Simple web frameworks benchmarks
 | Application                       | Throughput (req/s) | Memory usage | Comments                            |
 | --------------------------------- | ------------------ | ------------ | ----------------------------------- |
 | flask-simple                      | 1506.21            | 28MB         | (Keep-Alive requests:    0)         |
+| fastapi-simple                    | 1507.10            | 31MB         | (Keep-Alive requests:    0)         |
 | gin-simple                        | 78766.02           | 16MB         |                                     |
 | micronaut-simple                  | 38836.84           | 422MB        |                                     |
 | micronaut-simple                  | 24410.14           | 471MB        | GraalVM                             |
