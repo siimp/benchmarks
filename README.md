@@ -13,7 +13,7 @@ Simple web frameworks benchmarks
 - go version go1.15.8 windows/amd64
 - rustc 1.52.0-nightly (5fa22fe6f 2021-02-14)
 - Python 3.9.1
-- Node v12.13.1
+- Node v14.16.0
 
 ## Frameworks
 - spring-boot 2.4.2 (JVM)
@@ -47,7 +47,7 @@ Simple web frameworks benchmarks
 | actix-simple                      | 68845.68           | 7MB          |                                     |
 | spring-boot-simple                | 30511.69           | 342MB        |                                     |
 | spring-boot-simple-reactive       | 7633.54            | 397MB        | webflux (Keep-Alive requests:    0) |
-| express-simple                    | 13131.56           | 39MB         |                                     |
+| express-simple                    | 6420.94            | 70MB         |                                     |
 
 ## Notes
 Build and run information is under README.md for each project.
