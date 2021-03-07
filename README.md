@@ -27,7 +27,8 @@ Simple web frameworks benchmarks
 - express 4.17.1 (Node)
 
 ## Measurements
-- Throughput test was run 5 times ```ab -k -c 20 -n 100000 http://localhost:8080/```
+- Throughput test was run 5 times using Apache HTTP server benchmarking tool ab  
+    ```ab -k -c 20 -n 100000 http://localhost:8080/```
 - Memory usage is measured with windows task manager Peak working set (memory)
 
 ## Simple GET request results
