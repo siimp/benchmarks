@@ -13,6 +13,7 @@ Simple web frameworks benchmarks
 - go version go1.15.8 windows/amd64
 - rustc 1.52.0-nightly (5fa22fe6f 2021-02-14)
 - Python 3.9.1
+- Node v12.13.1
 
 ## Frameworks
 - spring-boot 2.4.2 (JVM)
@@ -23,6 +24,7 @@ Simple web frameworks benchmarks
 - actix-web 3 (Rust)
 - flask 1.1.2 (Python)
 - fastapi 0.63.0 (Python)
+- express 4.17.1 (Node)
 
 ## Measurements
 - Throughput test was run 5 times ```ab -k -c 20 -n 100000 http://localhost:8080/```
@@ -45,6 +47,7 @@ Simple web frameworks benchmarks
 | actix-simple                      | 68845.68           | 7MB          |                                     |
 | spring-boot-simple                | 30511.69           | 342MB        |                                     |
 | spring-boot-simple-reactive       | 7633.54            | 397MB        | webflux (Keep-Alive requests:    0) |
+| express-simple                    | 13131.56           | 39MB         |                                     |
 
 ## Notes
 Build and run information is under README.md for each project.
