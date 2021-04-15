@@ -25,6 +25,7 @@ Simple web frameworks benchmarks
 - flask 1.1.2 (Python)
 - fastapi 0.63.0 (Python)
 - express 4.17.1 (Node)
+- fiber v2.7.1 (Go)
 
 ## Measurements
 - Throughput test was run 5 times using Apache HTTP server benchmarking tool ab  
@@ -49,6 +50,7 @@ Simple web frameworks benchmarks
 | spring-boot-simple                | 30511.69           | 342MB        |                                     |
 | spring-boot-simple-reactive       | 7633.54            | 397MB        | webflux (Keep-Alive requests:    0) |
 | express-simple                    | 6420.94            | 70MB         |                                     |
+| fiber-simple                      | 43267.96           | 8MB          |                                     |
 
 ## Notes
 Build and run information is under README.md for each project.
